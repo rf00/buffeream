@@ -25,7 +25,7 @@ Returns buffer.
 ##Examples
 
 ```js
-var buffeream = require('./index.js');
+var buffeream = require('buffeream');
 
 var fs = require('fs');
 

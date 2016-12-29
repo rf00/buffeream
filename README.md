@@ -13,7 +13,6 @@ var buffeream = require('buffeream')
 ```
 
 ## Usage
-
 ### `buffeream(readableStream[, callback])`
 
 Returns buffer.
@@ -23,7 +22,6 @@ Returns buffer.
 `callback` - callback when there is a callback
 
 ##Examples
-
 ```js
 var buffeream = require('buffeream');
 

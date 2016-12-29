@@ -1,0 +1,27 @@
+{
+  "name": "buffeream",
+  "version": "0.0.1",
+  "description": "Convert readable stream into buffer.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rf00/buffeream.git"
+  },
+  "keywords": [
+    "convert",
+    "stream",
+    "buffer"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rf00 <rf00mail@gmail.com>",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/rf00/buffeream/issues"
+  },
+  "homepage": "https://github.com/rf00/buffeream#readme",
+  "dependencies": {
+    "q": "1.4.1"
+  }
+}

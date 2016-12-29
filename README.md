@@ -4,11 +4,11 @@
 
 ## Installation
 
-```
+```js
 npm install buffeream
 ```
 
-```
+```js
 var buffeream = require('buffeream')
 ```
 
@@ -24,7 +24,7 @@ Returns buffer.
 
 ##Examples
 
-```
+```js
 var buffeream = require('./index.js');
 
 var fs = require('fs');
@@ -49,7 +49,7 @@ buffeream(readableStream, function(err, buffer) {
 ```
 
 Using Promise:
-```
+```js
 buffeream(readableStream).then(function(buffer) {
 	
 	var data = buffer.toString();
@@ -64,7 +64,7 @@ buffeream(readableStream).then(function(buffer) {
 ```
 
 Using Async/Await:
-```
+```js
 convertStreamToBuffer();
 
 async function convertStreamToBuffer() {

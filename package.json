@@ -1,6 +1,6 @@
 {
   "name": "buffeream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert readable stream into buffer.",
   "main": "index.js",
   "repository": {
